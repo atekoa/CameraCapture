@@ -1,5 +1,2 @@
 language: csharp
 solution: CameraCapture.sln
-script:
-  cp -r -u DLL/* bin/Release/
-  cp -r -u DLL/* bin/Debug/
