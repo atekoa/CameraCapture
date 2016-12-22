@@ -1,3 +1,5 @@
 language: csharp
 solution: CameraCapture.sln
-script: xcopy  "$(ProjectDir)DLL" "$(TargetDir)" /y
+script:
+  cp -r -u DLL/* bin/Release/ /y
+  cp -r -u DLL/* bin/Debug/ /y
