@@ -1,2 +1,5 @@
 language: csharp
 solution: CameraCapture.sln
+script:
+  - cp -r -u DLL/* ../../bin/
+  - xbuild /p:Configuration=Release CameraCapture.sln
