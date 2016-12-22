@@ -1,2 +1,3 @@
 language: csharp
 solution: CameraCapture.sln
+script: xcopy  "$(ProjectDir)DLL" "$(TargetDir)" /y
